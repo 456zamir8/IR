@@ -23,9 +23,9 @@ relevant_set = set(["doc1", "doc4"])
 
 precision, recall, f1 = calculate_metrics(retrieved_set, relevant_set)
 
-print(f"Precision: {precision:.2f}")
-print(f"Recall: {recall:.2f}")
-print(f"F1 Score: {f1:.2f}")
+print(f"Precision: {precision * 100:.2f}%")
+print(f"Recall: {recall * 100:.2f}%")
+print(f"F1 Score: {f1 * 100:.2f}%")
 
 # B)
 from sklearn.metrics import average_precision_score
@@ -35,4 +35,4 @@ y_scores = [0.1, 0.4, 0.35, 0.8, 0.65, 0.9] #Model's estimation score
 
 average_precision = average_precision_score(y_true, y_scores)
 
-print(f'Average Precision: {average_precision:.2f}')
+print(f'Average Precision: {average_precision * 100:.2f}%')

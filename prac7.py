@@ -41,5 +41,5 @@ def crawl(start_url, max_pages=10):
             print(f"Error accessing {url}: {e}")
 
 # Example usage
-start_url = "https://flikerzz.co"
+start_url = "https://google.com"
 crawl(start_url, max_pages=20)
