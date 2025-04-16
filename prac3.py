@@ -1,7 +1,6 @@
 ''' Spelling Correction in IR Systems 
 ● Develop a spelling correction module using edit distance algorithms. 
-● Integrate the spelling correction module into an information retrieval 
-system. '''
+● Integrate the spelling correction module into an information retrieval system. '''
 
 def editDistance(str1, str2, m, n):
     if m == 0:

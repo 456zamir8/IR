@@ -1,4 +1,6 @@
-''' Boolean Retrieval '''
+''' Retrieval Models 
+● Implement the Boolean retrieval model and process queries. 
+● Implement the vector space model with TF-IDF weighting and cosine similarity. ''' 
 
 import re
 from collections import defaultdict

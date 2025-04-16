@@ -1,3 +1,7 @@
+'''Document Indexing and Retrieval 
+● Implement an inverted index construction algorithm. 
+● Build a simple document retrieval system using the constructed index.'''  
+
 import re
 from collections import defaultdict
 
@@ -49,7 +53,7 @@ if __name__ == "__main__":
     ii.print_index()
 
     while True:
-        query = input("\nEnter search query: ")
+        query = input("\nEnter search query(or type exit): ")
         if query.lower() == "exit":
             break
         results = ii.search(query)

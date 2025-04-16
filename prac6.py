@@ -1,3 +1,9 @@
+'''
+Clustering for Information Retrieval 
+Implement a clustering algorithm (e.g., K-means or hierarchical clustering). 
+Apply the clustering algorithm to a set of documents and evaluate the clustering results.
+'''
+
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.cluster import KMeans
 from sklearn.decomposition import PCA

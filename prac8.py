@@ -1,3 +1,7 @@
+''' Link Analysis and PageRank 
+A) Implement the PageRank algorithm to rank web pages based on link analysis. 
+B) Apply the PageRank algorithm to a small web graph and analyse the results. '''
+
 import numpy as np
 
 def page_rank(graph, damping_factor=0.85, max_iterations=100, tolerance=1e-6):

@@ -1,3 +1,7 @@
+'''Web Crawling and Indexing 
+A) Develop a web crawler to fetch and index web pages. 
+B) Handle challenges such as robots.txt, dynamic content, and crawling delays. '''
+
 import requests
 from bs4 import BeautifulSoup
 from urllib.parse import urljoin, urlparse

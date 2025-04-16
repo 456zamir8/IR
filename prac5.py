@@ -1,3 +1,7 @@
+'''Text Categorization 
+A) Implement a text classification algorithm (e.g., Naive Bayes or Support Vector Machines). 
+B) Train the classifier on a labelled dataset and evaluate its performance.''' 
+
 import pandas as pd 
 from sklearn.model_selection import train_test_split
 from sklearn.feature_extraction.text import CountVectorizer
